@@ -2,8 +2,8 @@ import { Outlet } from "react-router-dom";
 
 const Root = () => {
   return (
-    <div>
-      Root
+    <div className="">
+      <span className="text-red-500 font-semibold">Root</span>
       <Outlet />
     </div>
   );
